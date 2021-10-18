@@ -11,7 +11,7 @@ const onForSubmit = event => {
     }
     const formData = {email, password};
     console.log(formData);
-    event.currentTarget.reset();
+    form.reset();
 }
 form.addEventListener('submit', onForSubmit);
 
